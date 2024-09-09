@@ -1,0 +1,44 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center; 
+    margin: auto; 
+}
+.letterBox{
+    height: 50px;
+    width: 50px; 
+    border: 2px solid hsl(0, 0%, 87%); 
+    margin: 5px;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.row{
+    margin: auto;
+    height: 60px;
+    width: 320px;
+}
+button{
+    border: none;
+    padding: 15px 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#d8d4dc;
+}
+#deleteKey{
+    width: 70px;
+}
+#deleteKey img{
+    width: 20px;
+    height: 15px;
+}
+#output{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}

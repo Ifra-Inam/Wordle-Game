@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Wordle - The New York Times</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <link rel="icon" type="images/png" href="images/WordleFavicon.png">
+    </head>
+    <body>
+
+        <h1>Wordle</h1>
+            <div class="row" id="row1">
+                <div class="letterBox" id="letterBox1"></div>
+                <div class="letterBox" id="letterBox2"></div>
+                <div class="letterBox" id="letterBox3"></div>
+                <div class="letterBox" id="letterBox4"></div>
+                <div class="letterBox" id="letterBox5"></div>
+             </div>
+             <div class="row" id="row2">
+                <div class="letterBox" id="letterBox6"></div>
+                <div class="letterBox" id="letterBox7"></div>
+                <div class="letterBox" id="letterBox8"></div>
+                <div class="letterBox" id="letterBox9"></div>
+                <div class="letterBox" id="letterBox10"></div>
+             </div>
+             <div class="row" id="row3"> 
+                <div class="letterBox" id="letterBox11"></div>
+                <div class="letterBox" id="letterBox12"></div>
+                <div class="letterBox" id="letterBox13"></div>
+                <div class="letterBox" id="letterBox14"></div>
+                <div class="letterBox" id="letterBox15"></div>
+             </div>
+             <div class="row" id="row4"> 
+                <div class="letterBox" id="letterBox16"></div>
+                <div class="letterBox" id="letterBox17"></div>
+                <div class="letterBox" id="letterBox18"></div>
+                <div class="letterBox" id="letterBox19"></div>
+                <div class="letterBox" id="letterBox20"></div>
+             </div>
+             <div class="row" id="row5">
+                <div class="letterBox" id="letterBox21"></div>
+                <div class="letterBox" id="letterBox22"></div>
+                <div class="letterBox" id="letterBox23"></div>
+                <div class="letterBox" id="letterBox24"></div>
+                <div class="letterBox" id="letterBox25"></div>
+             </div>
+             <div class="row" id="row6">
+                <div class="letterBox" id="letterBox26"></div>
+                <div class="letterBox" id="letterBox27"></div>
+                <div class="letterBox" id="letterBox28"></div>
+                <div class="letterBox" id="letterBox29"></div>
+                <div class="letterBox" id="letterBox30"></div>
+             </div>
+        <br><br>
+        <div>
+            <button id="button1" onclick="pressedKey(this)">Q</button>
+            <button id="button2" onclick="pressedKey(this)">W</button>
+            <button id="button3" onclick="pressedKey(this)">E</button>
+            <button id="button4" onclick="pressedKey(this)">R</button>
+            <button id="button5" onclick="pressedKey(this)">T</button>
+            <button id="button6" onclick="pressedKey(this)">Y</button>
+            <button id="button7" onclick="pressedKey(this)">U</button>
+            <button id="button8" onclick="pressedKey(this)">I</button>
+            <button id="button9" onclick="pressedKey(this)">O</button>
+            <button id="button10" onclick="pressedKey(this)">P</button>
+        </div> 
+        <div>
+            <button id="button11" onclick="pressedKey(this)">A</button>
+            <button id="button12" onclick="pressedKey(this)">S</button>
+            <button id="button13" onclick="pressedKey(this)">D</button>
+            <button id="button14" onclick="pressedKey(this)">F</button>
+            <button id="button15" onclick="pressedKey(this)">G</button>
+            <button id="button16" onclick="pressedKey(this)">H</button>
+            <button id="button17" onclick="pressedKey(this)">J</button>
+            <button id="button18" onclick="pressedKey(this)">K</button>
+            <button id="button19" onclick="pressedKey(this)">L</button>
+        </div>
+        <div>
+            <button onclick="pressedKey(this)">Enter</button>
+            <button id="button20" onclick="pressedKey(this)">Z</button>
+            <button id="button21" onclick="pressedKey(this)">X</button>
+            <button id="button22" onclick="pressedKey(this)">C</button>
+            <button id="button23" onclick="pressedKey(this)">V</button>
+            <button id="button24" onclick="pressedKey(this)">B</button>
+            <button id="button25" onclick="pressedKey(this)">N</button>
+            <button  id="button26"onclick="pressedKey(this)">M</button>
+            <button id="deleteKey" onclick="pressedKey(this)"><img src="images/DeleteIcon.png"></button>      
+        </div>
+        <br>
+        <div id="output"></div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
